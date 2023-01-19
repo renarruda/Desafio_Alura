@@ -1,0 +1,17 @@
+body {
+	background-color: blue;
+}
+
+.img2 {
+	flex-direction: column;
+}
+
+.principal {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+
+#botoes {
+	color: blue;
+}

@@ -1,0 +1,93 @@
+body {
+	display: flex;
+	flex-flow: column wrap;
+	background-color: blanchedalmond;
+
+}
+
+.img {
+	position: relative;
+	width: auto;
+
+}
+
+.principal {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+}
+
+.caixaBotoes {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.caixaTexto {
+
+	align-items: flex-start;
+	text-align: center;
+	width: 0 auto;
+	padding: 5px;
+	margin-right: auto;
+	position: relative;
+}
+
+#retangulo {
+	/*position: absolute;*/
+	right: 15px;
+	background-color: aliceblue;
+	width: 400px;
+	height: 60%;
+	margin: auto;
+	padding: 10px;
+	border-radius: 15px;
+	border: none;
+	float: right;
+	opacity: 0.8;
+}
+
+.img2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 40%;
+}
+
+.caixaTexto2 {
+	padding: 5px;
+	margin: auto;
+}
+
+.paragrafo {
+	margin: 15px;
+}
+
+.botao {
+	text-align: center;
+}
+
+.bt1 {
+	/*display: inline-block;*/
+	margin: 15px;
+	padding: 15px;
+	text-align: center;
+	width: 25%;
+	color: white;
+	background-color: blue;
+	border-radius: 15px;
+
+}
+
+.bt2 {
+	/*display: inline-block;*/
+	margin: 15px;
+	padding: 15px;
+	text-align: center;
+	width: 25%;
+	color: blue;
+	border-radius: 15px;
+
+}
+
